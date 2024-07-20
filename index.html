@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conference Registration form</title>
+</head>
+<body>
+    <form action="#"id="registrationForm">
+        <label for="name">Name: </label>
+        <input type="text" name="name" id="name"required pattern="[A-Za-z/s]">
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password"required>
+        <br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" name="dob" id="dob" required>
+        <br>
+        <label for="">Gender:</label>
+        <br>
+        <label for=""><input type="radio" name="gender" id="gender" value="Male">Male</label>
+        <label for=""><input type="radio" name="gender" id="gender" value="Female">Female</label>
+        <label for=""><input type="radio" name="gender" id="gender" value="Other">Other</label>
+        <br>
+        <label for="">Education Level:</label>
+        <select name="Education" id="Education">
+            <option value="">Select your education level</option>
+            <option value="school">High school</option>
+            <option value="bachelors">Bachelor's Degree </option>
+
+
+
+
+        </select>
+        <br>
+        <label for="">Years of Experiance:</label>
+        <input type="number" name="exp" id="exp" min="0" max="50">
+        <br>
+        <label for="">Upload Resume</label>
+        <input type="file" name="resume" id="resume" accept=".pdf,.docx">
+
+
+<br>
+        <button type="submit">Submit </button>
+
+
+
+
+    </form>
+    
+</body>
+</html>
